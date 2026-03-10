@@ -58,7 +58,7 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="max-w-2xl">
-          Description
+          <p>Description</p>
           <p className="text-lg text-foreground/70 mb-8 leading-relaxed max-w-xl">
             With over 3 years of experience in programming, I specialize in building innovative solutions and leading development teams to deliver exceptional results.
           </p>
