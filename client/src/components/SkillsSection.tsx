@@ -6,19 +6,23 @@ export default function SkillsSection() {
   const skillCategories = [
     {
       title: 'Frontend',
-      skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Vue.js', 'HTML/CSS'],
+      skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Solid.js', 'Angular.js', 'HTML/CSS'],
     },
     {
       title: 'Backend',
-      skills: ['Node.js', 'Express', 'Python', 'Django', 'PostgreSQL', 'MongoDB'],
+      skills: ['Node.js', 'Express', 'Rust', 'Python', 'PostgreSQL', 'ClickHouse', 'MySQL'],
     },
     {
       title: 'DevOps & Tools',
-      skills: ['Docker', 'Git', 'AWS', 'CI/CD', 'Linux', 'Kubernetes'],
+      skills: ['Docker', 'Git', 'AWS', 'CI/CD', 'Linux'],
     },
     {
       title: 'Leadership',
       skills: ['Team Management', 'Agile/Scrum', 'Code Review', 'Mentoring', 'Project Planning', 'Communication'],
+    },
+    {
+      title: 'Creative / Other',
+      skills: ['Photography', 'Videography', 'Welding & Fabrication', 'Driving', 'Cooking', 'Traveling'],
     },
   ];
 

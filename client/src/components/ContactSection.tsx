@@ -23,12 +23,12 @@ export default function ContactSection() {
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Github, href: '#', label: 'GitHub' },
     { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:fadhil@example.com', label: 'Email' },
+    { icon: Mail, href: 'mailto:fadhilprast333@gmail.com', label: 'Email' },
   ];
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'fadhil@example.com', href: 'mailto:fadhil@example.com' },
-    { icon: Phone, label: 'Phone', value: '+62 812 3456 7890', href: 'tel:+628123456789' },
+    { icon: Mail, label: 'Email', value: 'fadhilprast333@gmail.com', href: 'mailto:fadhilprast333@gmail.com' },
+    { icon: Phone, label: 'Phone', value: '+62 81322490589', href: 'tel:+628123456789' },
     { icon: MapPin, label: 'Location', value: 'Jakarta, Indonesia', href: '#' },
   ];
 

@@ -54,7 +54,7 @@ export default function Footer() {
                 { label: 'LinkedIn', href: '#' },
                 { label: 'GitHub', href: '#' },
                 { label: 'Twitter', href: '#' },
-                { label: 'Email', href: 'mailto:fadhil@example.com' },
+                { label: 'Email', href: 'mailto:fadhilprast333@gmail.com' },
               ].map((link) => (
                 <a
                   key={link.href}

@@ -88,9 +88,9 @@ export default function HeroSection() {
 
           {/* Profile Image */}
           <div className=''>
-            <div className="flex w-full h-full items-center  sm:w-80 lg:w-91">
+            <div className="flex w-full h-full items-center  sm:w-80 lg:w-90">
               <img
-                src="assets/myphoto.jpg"
+                src="assets/myphoto2.jpg"
                 alt="Fadhil Budi Prasetya"
                 className="w-full h-auto rounded-4xl object-cover shadow-lg border-4 border-l-fuchsia-500 border-t-pink-500 border-r-purple-500 border-b-primary"
               />
