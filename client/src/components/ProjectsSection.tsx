@@ -132,7 +132,7 @@ export default function ProjectsSection() {
           <div className="text-center mt-12">
             <a
               href="#"
-              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary text-primary font-semibold rounded-sm hover:bg-primary hover:text-primary-foreground transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary text-primary font-semibold rounded-sm hover:bg-gradient-to-r from-primary via-purple-500 to-pink-500 hover:text-primary-foreground transition-colors"
             >
               View All Projects
               <ExternalLink size={18} />

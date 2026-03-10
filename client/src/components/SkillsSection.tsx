@@ -75,7 +75,7 @@ export default function SkillsSection() {
                   </div>
                   <div className="w-full bg-border rounded-full h-2 overflow-hidden">
                     <div
-                      className="bg-primary h-full rounded-full transition-all duration-500"
+                      className="bg-gradient-to-r from-primary via-purple-500 to-pink-500 h-full rounded-full transition-all duration-500"
                       style={{ width: `${proficiency.level}%` }}
                     />
                   </div>

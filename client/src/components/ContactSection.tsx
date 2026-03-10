@@ -79,7 +79,7 @@ export default function ContactSection() {
                       key={social.label}
                       href={social.href}
                       aria-label={social.label}
-                      className="w-12 h-12 bg-secondary border border-border rounded-sm flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all"
+                      className="w-12 h-12 bg-secondary border border-border rounded-sm flex items-center justify-center text-foreground hover:bg-gradient-to-r from-primary via-purple-500 to-pink-500 hover:text-primary-foreground hover:border-primary transition-all"
                     >
                       <social.icon size={20} />
                     </a>
@@ -143,7 +143,7 @@ export default function ContactSection() {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-sm hover:opacity-90 transition-opacity"
+                  className="w-full px-6 py-3 bg-gradient-to-r from-primary via-purple-500 to-pink-500 text-primary-foreground font-semibold rounded-sm hover:opacity-90 transition-opacity"
                 >
                   Send Message
                 </button>

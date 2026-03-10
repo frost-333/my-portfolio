@@ -61,7 +61,7 @@ export default function AboutSection() {
                   <div className="w-0.5 h-16 bg-border mt-2" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-foreground">Project Lead Developer</h4>
+                  <h4 className="text-lg font-bold text-foreground">Project Lead Developer (2024 - Present)</h4>
                   <p className="text-primary font-semibold">PT Braincode Digital Teknologi</p>
                   <p className="text-foreground/60 text-sm">Leading development team in designing and implementing innovative solutions</p>
                 </div>
@@ -72,7 +72,7 @@ export default function AboutSection() {
                   <div className="w-0.5 h-16 bg-border mt-2" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-foreground">Fullstack Developer</h4>
+                  <h4 className="text-lg font-bold text-foreground">Fullstack Developer (2023 - 2024)</h4>
                   <p className="text-primary font-semibold">Network Service Digitalization Department</p>
                   <p className="text-foreground/60 text-sm\">Developing and maintaining full-stack applications with modern technologies</p>
                 </div>
@@ -80,11 +80,46 @@ export default function AboutSection() {
               <div className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="w-4 h-4 bg-primary rounded-full" />
+                  <div className="w-0.5 h-16 bg-border mt-2" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-bold text-foreground">Software Developer</h4>
+                  <h4 className="text-lg font-bold text-foreground">Software Developer (2023)</h4>
                   <p className="text-primary font-semibold">Various Tech Companies</p>
                   <p className="text-foreground/60 text-sm">Building robust applications and contributing to team success</p>
+                </div>
+              </div>
+              <div className="flex gap-6">
+                <div className="flex flex-col items-center">
+                  <div className="w-4 h-4 bg-primary rounded-full" />
+                  <div className="w-0.5 h-16 bg-border mt-2" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-foreground">Software Operation Engineer (2022 - 2023)</h4>
+                  <p className="text-primary font-semibold">Braincode Solution</p>
+                  <p className="text-foreground/60 text-sm">Maintaining servers, monitoring systems, and ensuring smooth operation of software infrastructure</p>
+                </div>
+              </div>
+
+              <div className="flex gap-6">
+                <div className="flex flex-col items-center">
+                  <div className="w-4 h-4 bg-primary rounded-full" />
+                  <div className="w-0.5 h-16 bg-border mt-2" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-foreground">Owner / Seller (2021 - 2022)</h4>
+                  <p className="text-primary font-semibold">Warung Vape, Cilacap Regency</p>
+                  <p className="text-foreground/60 text-sm">Running a personal business selling vape liquids and related products</p>
+                </div>
+              </div>
+
+              <div className="flex gap-6">
+                <div className="flex flex-col items-center">
+                  <div className="w-4 h-4 bg-primary rounded-full" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-foreground">Welding Engineer (2020 - 2021)</h4>
+                  <p className="text-primary font-semibold">Pertamina RUIV (RU4)</p>
+                  <p className="text-foreground/60 text-sm">Hands-on welding engineer with practical experience in industrial projects, skilled but still learning advanced techniques</p>
                 </div>
               </div>
             </div>
