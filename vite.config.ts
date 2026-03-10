@@ -153,7 +153,8 @@ function vitePluginManusDebugCollector(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 
 export default defineConfig({
-  plugins,
+  // plugins,
+  plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
@@ -165,8 +166,10 @@ export default defineConfig({
   root: path.resolve(import.meta.dirname, "client"),
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
+    // outDir: 'build',
     emptyOutDir: true,
   },
+  base: '/my-portfolio/',
   server: {
     port: 3000,
     strictPort: false, // Will find next available port if 3000 is busy

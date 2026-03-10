@@ -48,14 +48,13 @@ export default function HeroSection() {
             </h2>
           </div>
 
-          {/* Profile Image */}
-          <div className="flex-shrink-0 w-full sm:w-80 lg:w-80">
+          {/* <div className="flex-shrink-0 w-full sm:w-80 lg:w-80">
             <img
               src="/src/assets/photo_2026-02-24_21-56-46 (2).jpg"
               alt="Fadhil Budi Prasetya"
               className="w-full h-auto rounded-lg object-cover shadow-lg"
             />
-          </div>
+          </div> */}
         </div>
         <div className="max-w-2xl">
           <p>Description</p>
